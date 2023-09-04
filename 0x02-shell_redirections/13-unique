@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -c | grep -vE '^ +2' | cut -c7-
+sort | uniq -u
