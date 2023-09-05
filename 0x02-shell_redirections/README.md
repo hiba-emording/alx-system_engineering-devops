@@ -1,45 +1,53 @@
-##Scripts:
+## Scripts:
 
 * 0: A script that prints “Hello, World”, followed by a new line to the standard output
 ```
 #!/bin/bash
 echo "Hello, World"
 ```
+
 * 1: A script that displays a confused smiley
 ```
 #!/bin/bash
 echo "\"(Ôo)'"
 ```
+
 * 2: A script that Display the content of the /etc/passwd file
 ```
 #!/bin/bash
 cat /etc/passwd
 ```
+
 * 3: A script that Display the content of /etc/passwd and /etc/hosts
 ```
 #!/bin/bash
 cat /etc/passwd /etc/hosts
 ```
+
 * 4: A script that Display the last 10 lines of /etc/passwd
 ```
 #!/bin/bash
 tail /etc/passwd
 ```
+
 * 5: A script that Display the first 10 lines of /etc/passwd
 ```
 #!/bin/bash
 head /etc/passwd
 ```
+
 * 6: A script that displays the third line of the file iacta
 ```
 #!/bin/bash
 head -n 3 iacta | tail -n 1
 
 * 7:* 7:: A shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
+
 ```
 #!/bin/bash
 echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)
 ```
+
 * 8: A script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it
 
 ```
@@ -172,11 +180,12 @@ The ‘decoded’ message has to end with a new line
 #!/bin/bash
 cut -c 1 | paste -s -d ''
 ```
+
 * 26: A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 
 Order by number of requests, most active host or IP at the top
+
 ```
 #!/bin/bash
 tail -n +2 | cut -f 1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f 1 | rev
 ```
-
