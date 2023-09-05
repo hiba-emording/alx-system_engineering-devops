@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$ENCODED_TEXT" | tr 'A-Za-z' 'N-ZA-Mn-za-m' > decoded.txt
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
