@@ -71,7 +71,7 @@ The current and parent directories should not be taken into account
 Hidden directories should be counted
 ```
 #!/bin/bash
-find . -mindepth 1 -type d \( ! -name '.*' \) | wc -l
+find . -mindepth 1 -type d | wc -l
 ```
 
 * 12: A script that displays the 10 newest files in the current directory.
