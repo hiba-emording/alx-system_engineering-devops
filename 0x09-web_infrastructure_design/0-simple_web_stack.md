@@ -1,4 +1,4 @@
-<img src="https://imgur.com/5PR80GV" alt="Simple web stack">
+[Imgur](https://imgur.com/5PR80GV)
 
 a single server infrastructure with a LAMP stack can be a simple and cost-effective solution for small websites with low traffic, yet it has limitations in terms of:
 
