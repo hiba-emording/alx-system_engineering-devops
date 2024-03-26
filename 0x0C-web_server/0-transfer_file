@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Transfers a file from client to server.
 # Accepts four arguments:
 # path to the file to be transferred.
