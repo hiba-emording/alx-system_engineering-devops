@@ -18,4 +18,4 @@ sed -i '/server_name _;/a \
 sed -i '/include \/etc\/nginx\/sites-enabled\/\*;/a \
         add_header X-Served-By "$HOSTNAME";' /etc/nginx/nginx.conf
 
-service nginx start
+service nginx restart
