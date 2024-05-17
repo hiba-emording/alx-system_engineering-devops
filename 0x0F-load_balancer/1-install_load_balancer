@@ -38,8 +38,8 @@ frontend load_balancer
 
 backend servers
     balance roundrobin
-    server web-01 35.153.57.39:80 check
-    server web-02 100.26.213.23:80 check
+    server web-01 34.204.101.130:80 check
+    server web-02 54.144.153.103:80 check
 EOF
 
 service haproxy restart
