@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Returns information about employee ID TODO list progress"""
 
+import csv
 import requests
 import sys
-import csv
 
 
 if __name__ == "__main__":
