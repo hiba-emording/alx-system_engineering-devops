@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Recursively retrieves titles of all hot articles for given subreddit"""
 import requests
 
 
