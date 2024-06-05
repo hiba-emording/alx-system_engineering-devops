@@ -1,6 +1,8 @@
 Postmortem
 `Based on 0x17-web_stack_debugging_3`
 
+![TYPO](https://i.redd.it/8gwce0j02oa21.jpg)
+
 **Issue Summary:**
 
 - **Duration:** The website experienced an outage for about 7 minutes on June 5th, 2024, between 03:55 PM and 04:02 PM EET (Egypt Standard Time).
