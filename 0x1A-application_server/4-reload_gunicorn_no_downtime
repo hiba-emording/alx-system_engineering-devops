@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Find and gracefully reload Gunicorn processes
 
-ps aux | grep '[g]unicorn' | awk '{ print $2 }' | xargs kill -HUP
+pgrep -f 'gunicorn' | xargs kill -HUP
